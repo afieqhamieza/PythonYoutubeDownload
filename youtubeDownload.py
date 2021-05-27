@@ -4,7 +4,7 @@ import os
 from pydub import AudioSegment
 from pytube import YouTube
 import moviepy.editor as mp
-from videoprops import get_audio_properties
+# from videoprops import get_audio_properties
 from IPython.display import Audio
 import subprocess
 import ffprobe
@@ -44,7 +44,7 @@ def audio_process(audio_url, audiofilename, path):
 
 
 if __name__ == "__main__":
-    SAVE_PATH = '/Users/GPR/Santha_SideHustle/IceChunk/IceChunk_POC/IceChunk_Downloads'
+    SAVE_PATH = '/Users/afieqhamieza/Documents/github repo/PythonYoutubeDownload/vid_download'
     setpath(SAVE_PATH)
     print("1")
     audiourl, audiopath, audiosfilename = audio_process(
